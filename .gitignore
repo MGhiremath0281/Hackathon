@@ -1,0 +1,30 @@
+# Ignore all dataset files
+datasets/flir/
+datasets/kaist/
+datasets/otcbvs/
+datasets/youtube_ir/
+datasets/simulated_ir/
+
+# Ignore other common large or generated files
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
